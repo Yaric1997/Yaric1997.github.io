@@ -5,7 +5,10 @@
 
 # testing
 /coverage
-
+# sass files
+/sass
+#scss files
+/scss
 # production
 /build
 
