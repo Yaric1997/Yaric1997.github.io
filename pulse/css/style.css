@@ -150,6 +150,13 @@
   font-size: 16px;
 }
 
+/* line 20, D:/Projects/Yaric1997.github.io/pulse/sass/_buttons.sass */
+.button_mini {
+  width: 131px;
+  height: 40px;
+  font-size: 14px;
+}
+
 @media (max-width: 991px) {
   /* line 2, D:/Projects/Yaric1997.github.io/pulse/sass/_media.sass */
   .header {
@@ -375,13 +382,282 @@
   margin-bottom: 20px;
 }
 
-/* line 11, D:/Projects/Yaric1997.github.io/pulse/sass/style.sass */
+/* line 1, D:/Projects/Yaric1997.github.io/pulse/sass/_carousel.sass */
+.carousel {
+  padding: 81px 0;
+}
+
+/* line 3, D:/Projects/Yaric1997.github.io/pulse/sass/_carousel.sass */
+.carousel__inner {
+  position: relative;
+  width: 750px;
+  margin: 0 auto;
+}
+
+/* line 7, D:/Projects/Yaric1997.github.io/pulse/sass/_carousel.sass */
+.carousel .prev, .carousel .next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: -66px;
+  border: none;
+  background-color: #fff;
+}
+
+/* line 14, D:/Projects/Yaric1997.github.io/pulse/sass/_carousel.sass */
+.carousel .prev img, .carousel .next img {
+  width: 31px;
+  height: 50px;
+}
+
+/* line 17, D:/Projects/Yaric1997.github.io/pulse/sass/_carousel.sass */
+.carousel .next {
+  right: -66px;
+  left: auto;
+}
+
+/* line 21, D:/Projects/Yaric1997.github.io/pulse/sass/_carousel.sass */
+.carousel .tns-item img {
+  display: block;
+  margin: 0 auto;
+}
+
+/* line 1, D:/Projects/Yaric1997.github.io/pulse/sass/_catalog.sass */
+.catalog {
+  padding-bottom: 100px;
+}
+
+/* line 3, D:/Projects/Yaric1997.github.io/pulse/sass/_catalog.sass */
+.catalog__tabs {
+  margin-top: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+/* line 11, D:/Projects/Yaric1997.github.io/pulse/sass/_catalog.sass */
+.catalog__tab {
+  width: 220px;
+  height: 50px;
+  border: solid 1px #d0d0d0;
+  font-size: 18px;
+  font-weight: 500;
+  text-align: center;
+  color: #6b6b6b;
+  text-transform: uppercase;
+  line-height: 48px;
+  transform: skewX(-25deg);
+  margin: 0 5px;
+  cursor: pointer;
+  transition: 0.5s all;
+}
+
+/* line 25, D:/Projects/Yaric1997.github.io/pulse/sass/_catalog.sass */
+.catalog__tab:hover {
+  box-shadow: 3px 3px 20px #c70101;
+  border: none;
+}
+
+/* line 28, D:/Projects/Yaric1997.github.io/pulse/sass/_catalog.sass */
+.catalog__tab div {
+  transform: skewX(25deg);
+}
+
+/* line 30, D:/Projects/Yaric1997.github.io/pulse/sass/_catalog.sass */
+.catalog__tab_active {
+  color: #fff;
+  background-color: #c70101;
+  border: none;
+}
+
+/* line 34, D:/Projects/Yaric1997.github.io/pulse/sass/_catalog.sass */
+.catalog__content {
+  display: none;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 60px;
+}
+
+/* line 39, D:/Projects/Yaric1997.github.io/pulse/sass/_catalog.sass */
+.catalog__content_active {
+  display: flex;
+}
+
+/* line 41, D:/Projects/Yaric1997.github.io/pulse/sass/_catalog.sass */
+.catalog-item {
+  width: 300px;
+  min-height: 440px;
+  border: solid 2px #e8e8e8;
+  padding: 20px 20px 26px 20px;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+/* line 48, D:/Projects/Yaric1997.github.io/pulse/sass/_catalog.sass */
+.catalog-item__img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  height: 200px;
+}
+
+/* line 53, D:/Projects/Yaric1997.github.io/pulse/sass/_catalog.sass */
+.catalog-item__subtitle {
+  margin-top: 20px;
+  font-size: 16px;
+  font-weight: 700;
+  text-align: center;
+  color: #0d0d0d;
+}
+
+/* line 59, D:/Projects/Yaric1997.github.io/pulse/sass/_catalog.sass */
+.catalog-item__descr {
+  margin-top: 16px;
+  font-size: 14px;
+  font-weight: 300;
+  text-align: center;
+  color: #0d0d0d;
+}
+
+/* line 65, D:/Projects/Yaric1997.github.io/pulse/sass/_catalog.sass */
+.catalog-item__link {
+  display: block;
+  margin-top: 17px;
+  font-size: 14px;
+  font-weight: 500;
+  text-align: center;
+  color: #c70101;
+  text-decoration: underline;
+  text-transform: uppercase;
+}
+
+/* line 74, D:/Projects/Yaric1997.github.io/pulse/sass/_catalog.sass */
+.catalog-item__link:hover {
+  color: #c70101;
+}
+
+/* line 76, D:/Projects/Yaric1997.github.io/pulse/sass/_catalog.sass */
+.catalog-item hr {
+  background-color: #e8e8e8;
+  margin-top: 19px;
+  margin-bottom: 21px;
+  border-bottom: none;
+}
+
+/* line 81, D:/Projects/Yaric1997.github.io/pulse/sass/_catalog.sass */
+.catalog-item__footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* line 85, D:/Projects/Yaric1997.github.io/pulse/sass/_catalog.sass */
+.catalog-item__old-price {
+  font-size: 14px;
+  font-weight: 300;
+  text-align: left;
+  color: #555555;
+  text-decoration: line-through;
+}
+
+/* line 91, D:/Projects/Yaric1997.github.io/pulse/sass/_catalog.sass */
+.catalog-item__price {
+  font-size: 20px;
+  font-weight: 700;
+  text-align: left;
+  color: #050505;
+}
+
+/* line 96, D:/Projects/Yaric1997.github.io/pulse/sass/_catalog.sass */
+.catalog-item__wrapper {
+  display: flex;
+  width: calc(200% + 40px);
+}
+
+/* line 99, D:/Projects/Yaric1997.github.io/pulse/sass/_catalog.sass */
+.catalog-item__content {
+  width: 50%;
+  margin-right: 0px;
+  transform: translateX(-100%);
+  transition: 0.5s all;
+}
+
+/* line 104, D:/Projects/Yaric1997.github.io/pulse/sass/_catalog.sass */
+.catalog-item__content_active {
+  transform: translateX(0%);
+  margin-right: 20px;
+}
+
+/* line 107, D:/Projects/Yaric1997.github.io/pulse/sass/_catalog.sass */
+.catalog-item__list {
+  position: relative;
+  width: 50%;
+  margin-left: 20px;
+  transform: translateX(0%);
+  padding-right: 20px;
+  transition: 0.5s all;
+  padding-left: 19px;
+  margin-bottom: 0;
+  list-style-type: none;
+}
+
+/* line 117, D:/Projects/Yaric1997.github.io/pulse/sass/_catalog.sass */
+.catalog-item__list_active {
+  transform: translateX(-100%);
+  margin-left: 0;
+}
+
+/* line 120, D:/Projects/Yaric1997.github.io/pulse/sass/_catalog.sass */
+.catalog-item__list li {
+  position: relative;
+  font-size: 14px;
+  font-weight: 300;
+  color: #555555;
+  margin-bottom: 20px;
+}
+
+/* line 126, D:/Projects/Yaric1997.github.io/pulse/sass/_catalog.sass */
+.catalog-item__list li:before {
+  content: '';
+  position: absolute;
+  width: 5px;
+  height: 5px;
+  background-color: #c70101;
+  left: -14px;
+  top: 7px;
+}
+
+/* line 134, D:/Projects/Yaric1997.github.io/pulse/sass/_catalog.sass */
+.catalog-item__back {
+  font-size: 14px;
+  font-weight: 500;
+  text-align: center;
+  color: #c70101;
+  text-decoration: underline;
+  text-transform: uppercase;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(calc(-50%-19px));
+  display: block;
+}
+
+/* line 146, D:/Projects/Yaric1997.github.io/pulse/sass/_catalog.sass */
+.catalog-item__back:hover {
+  color: #c70101;
+}
+
+/* line 13, D:/Projects/Yaric1997.github.io/pulse/sass/style.sass */
 * {
   font-family: 'Museo Sans Cyrl', sans-serif;
 }
 
-/* line 13, D:/Projects/Yaric1997.github.io/pulse/sass/style.sass */
+/* line 15, D:/Projects/Yaric1997.github.io/pulse/sass/style.sass */
 .container {
+  position: relative;
   max-width: 950px;
   margin: 0 auto;
 }
