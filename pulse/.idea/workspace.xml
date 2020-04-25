@@ -27,7 +27,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/light-wave/light-wave/template/assets/js/custom.js" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../science" />
     <property name="list.type.of.created.stylesheet" value="Sass" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -80,7 +80,7 @@
       <workItem from="1587655954885" duration="100000" />
       <workItem from="1587734670288" duration="4578000" />
       <workItem from="1587745954092" duration="8518000" />
-      <workItem from="1587826324298" duration="6049000" />
+      <workItem from="1587826324298" duration="6646000" />
     </task>
     <servers />
   </component>
@@ -108,10 +108,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="93" y="93" width="1350" height="638" key="DiffContextDialog/0.0.1536.824@0.0.1536.824" timestamp="1587745759962" />
-    <state x="548" y="154" key="FileChooserDialogImpl" timestamp="1587833671527">
+    <state x="548" y="154" key="FileChooserDialogImpl" timestamp="1587836576841">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="548" y="154" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1587833671527" />
+    <state x="548" y="154" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1587836576841" />
     <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1587642499688">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
