@@ -1,7 +1,7 @@
 ﻿
 /*=============================================================
     Authour URL: www.designbootstrap.com
-    
+
     http://www.designbootstrap.com/
 
     License: MIT
@@ -11,7 +11,7 @@
     100% Free To use For Personal And Commercial Use.
 
     IN EXCHANGE JUST TELL PEOPLE ABOUT THIS WEBSITE
-   
+
 ========================================================  */
 
 
@@ -167,10 +167,67 @@ line-height: 25px;
 margin: 25px 20px;
 }
 
+.catalog {
+  padding-bottom: 100px;
+}
+
+.catalog__tabs {
+  margin-top: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+.catalog__tab {
+  width: 220px;
+  height: 50px;
+  border: solid 1px #d0d0d0;
+  font-size: 18px;
+  font-weight: 500;
+  text-align: center;
+  color: #ffffff;
+  text-transform: uppercase;
+  line-height: 48px;
+  transform: skewX(-25deg);
+  margin: 0 5px;
+  cursor: pointer;
+  transition: 0.5s all;
+}
+
+.catalog__tab:hover {
+  box-shadow: 3px 3px 20px #c70101;
+  border: none;
+}
+
+.catalog__tab div {
+  transform: skewX(25deg);
+}
+
+.catalog__tab_active {
+  color: #fff;
+  background-color: #c70101;
+  border: none;
+}
+
+.catalog__content {
+  display: none;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 60px;
+}
+
+.catalog__content_active {
+  display: flex;
+}
 /* =============================================================
 SERVICES SECTION STYLES
 ============================================================ */
-
+#services {
+  position: relative;
+}
 #services .services-wrapper {
 padding: 20px;
 border-radius: 5px;
@@ -201,8 +258,33 @@ margin: 5px;
 color: rgb(40, 141, 203);
 font-size: 60px;
 }
+.content{
+  width: 1114px;
+  margin: 0 auto;
+}
+.date{
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 28px;
+  color: grey;
+  font-size: 12px;
+}
 
-
+.date{
+  display: flex;
+  position: absolute;
+  bottom: 10px;
+  right: 5px;
+  color: grey;
+  font-size: 12px;
+}
+a {
+  color: #fff;
+}
+#services .services-wrapper a:hover{
+  text-decoration: none;
+  color: #fff;
+}
 /*============================
 PRICING SECTION STYLES
 ==============================*/
