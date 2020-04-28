@@ -1,0 +1,332 @@
+﻿
+/*=============================================================
+    Authour URL: www.designbootstrap.com
+
+    http://www.designbootstrap.com/
+
+    License: MIT
+
+    http://opensource.org/licenses/MIT
+
+    100% Free To use For Personal And Commercial Use.
+
+    IN EXCHANGE JUST TELL PEOPLE ABOUT THIS WEBSITE
+
+========================================================  */
+
+
+
+/* =============================================================
+GOOGLE FONT
+============================================================ */
+
+@import url(http://fonts.googleapis.com/css?family=Ubuntu); /* FREE GOOGLE FONT */
+@import url(http://fonts.googleapis.com/css?family=Oswald); /* FREE GOOGLE FONT */
+
+
+
+/* =============================================================
+GENERAL STYLES
+============================================================ */
+body {
+font-family: 'Ubuntu', sans-serif;
+color: #fff;
+}
+
+section {
+padding-top: 80px;
+padding-bottom: 40px;
+}
+
+.pad-bottom {
+padding-bottom: 60px;
+}
+
+.header {
+font-family: 'Oswald', sans-serif;
+padding-bottom: 40px;
+text-transform: uppercase;
+}
+
+.header hr {
+width: 50px;
+border-top: 2px solid rgb(40, 141, 203);
+}
+
+
+/* =============================================================
+CUSTOM BUTTON STYLES
+============================================================ */
+.button-custom {
+border-radius: 0px;
+-webkit-border-radius: 0px;
+-moz-border-radius: 0px;
+-webkit-transition: all 0.5s ease-in-out;
+-moz-transition: all 0.5s ease-in-out;
+-o-transition: all 0.5s ease-in-out;
+transition: all 0.5s ease-in-out;
+margin: 25px 5px 5px 0px;
+margin: 5px;
+}
+
+.btn-custom-one {
+background-color: transparent;
+color: #fff;
+border: 2px solid rgb(40, 141, 203);
+}
+
+.btn-custom-one:hover {
+background-color: rgb(40, 141, 203);
+text-decoration: none;
+color: #fff;
+}
+
+.btn-custom-two {
+color: #fff;
+background-color: rgb(40, 141, 203);
+border: 2px solid rgb(40, 141, 203);
+}
+
+.btn-custom-two:hover {
+border: 2px solid rgb(40, 141, 203);
+text-decoration: none;
+color: #fff;
+background-color: transparent;
+}
+
+
+/* =============================================================
+MENU SECTION STYLES
+============================================================ */
+.navbar-inverse {
+background-color: rgba(0, 0, 0, 0.4);
+border-color: transparent;
+}
+
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
+background-color: transparent;
+border-bottom: 1px solid rgb(40, 141, 203);
+}
+
+.navbar-inverse .navbar-nav > li > a {
+font-size: 12px;
+font-weight: 800;
+padding: 5px 0px;
+letter-spacing: 2px;
+margin: 10px 20px 10px 20px;
+color: #FFF;
+}
+
+.navbar-inverse .navbar-brand, .navbar-inverse .navbar-brand:hover {
+color: #fff;
+font-weight: 900;
+font-family: 'Oswald', sans-serif;
+}
+
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+border-color: transparent;
+}
+.navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus {
+background-color: rgb(40, 141, 203);
+}
+.navbar-inverse .navbar-toggle {
+border-color: rgb(40, 141, 203);
+}
+
+
+/* =============================================================
+HOME SECTION STYLES
+============================================================ */
+
+#home {
+text-align: center;
+padding-top: 120px;
+padding-bottom: 60px;
+}
+
+#home .social {
+display: block;
+margin: 50px 20px;/*
+transform: translateX(98%);*/
+}
+
+/*Carousel Slider*/
+
+#carousel-slider {
+padding: 50px 20px 5px 50px;
+}
+
+#carousel-slider h3 {
+line-height: 50px;
+font-family: 'Oswald', sans-serif;
+}
+
+#carousel-slider p {
+color: rgb(40, 141, 203);
+font-size: 16px;
+line-height: 25px;
+margin: 25px 20px;
+}
+/*.carousel-inner {
+    left: 50%;
+    transform: translateX(50%);
+}*/
+/* =============================================================
+SERVICES SECTION STYLES
+============================================================ */
+
+#services .services-wrapper {
+padding: 20px;
+border-radius: 5px;
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+margin-bottom: 40px;
+background-color: rgba(255, 255, 255, 0.07);
+cursor: pointer;
+-webkit-transition: all 0.5s ease-in-out;
+-moz-transition: all 0.5s ease-in-out;
+-o-transition: all 0.5s ease-in-out;
+transition: all 0.5s ease-in-out;
+height: 500px;
+position: relative;
+}
+.services-img{
+    width: 100%;
+}
+#services .services-wrapper:hover {
+background-color: rgba(255, 255, 255, 0.20);
+}
+
+#services h3 {
+font-family: 'Oswald', sans-serif;
+}
+
+#services .services-wrapper i {
+margin: 5px;
+color: rgb(40, 141, 203);
+font-size: 60px;
+}
+
+.date{
+  display: flex;
+  position: absolute;
+  bottom: 10px;
+  right: 5px;
+  color: grey;
+  font-size: 12px;
+}
+a {
+    color: #fff;
+}
+#services .services-wrapper a:hover{
+    text-decoration: none;
+    color: #fff;
+}
+
+.content{
+    width: 1114px;
+    margin: 0 auto;
+}
+
+.catalog {
+  padding-bottom: 100px;
+}
+
+.catalog__tabs {
+  margin-top: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+.catalog__tab {
+  width: 220px;
+  height: 50px;
+  border: solid 1px #d0d0d0;
+  font-size: 18px;
+  font-weight: 500;
+  text-align: center;
+  color: #ffffff;
+  text-transform: uppercase;
+  line-height: 48px;
+  transform: skewX(-25deg);
+  margin: 0 5px;
+  cursor: pointer;
+  transition: 0.5s all;
+}
+
+.catalog__tab:hover {
+  box-shadow: 3px 3px 20px #c70101;
+  border: none;
+}
+
+.catalog__tab div {
+  transform: skewX(25deg);
+}
+
+.catalog__tab_active {
+  color: #fff;
+  background-color: #c70101;
+  border: none;
+}
+
+.catalog__content {
+  display: none;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 60px;
+}
+
+.catalog__content_active {
+  display: flex;
+}
+
+
+.content-text{
+    width: 1114px;
+}
+.content-text p{
+    line-height: 36px;
+    font-size: 16px;
+    padding: 10px 0;
+}
+
+
+
+.img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+/*============================
+CONTACT SECTION STYLES
+==============================*/
+
+#contact .contact-wrapper {
+background-color: rgba(255, 255, 255, 0.1);
+padding: 20px;
+border-radius: 5px;
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+margin-bottom: 40px;
+min-height:200px;
+}
+#contact .contact-wrapper h3 {
+color: rgb(40, 141, 203);
+}
+#contact .social-below {
+display: block;
+margin-top: 5px;
+}
+.footer-div {
+padding-top:25px;
+}
+.footer-div a,.footer-div a:hover {
+font-size:10px;
+
+color:#fff;
+text-decoration:none;
+}
