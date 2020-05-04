@@ -49,8 +49,8 @@ text-transform: uppercase;
 }
 
 .header hr {
-width: 50px;
-border-top: 2px solid rgb(40, 141, 203);
+  width: 150px;
+  border-top: 2px solid rgb(40, 141, 203);
 }
 
 
@@ -189,6 +189,12 @@ cursor: pointer;
 transition: all 0.5s ease-in-out;
 height: 500px;
 position: relative;
+}
+.wrapper {
+  display: none;
+}
+.wrapper-active{
+  display: block;
 }
 .services-img{
     width: 100%;
