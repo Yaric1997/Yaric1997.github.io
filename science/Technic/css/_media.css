@@ -1,0 +1,8 @@
+@media (max-width: 545px) {
+    .content-text p {
+      font-size: 13px;
+    }
+    h1 {
+      font-size: 27px;
+    }
+}
