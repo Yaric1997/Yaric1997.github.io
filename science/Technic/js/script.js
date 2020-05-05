@@ -108,7 +108,8 @@ WRITE YOUR CUSTOM SCRIPTS BELOW
   $('ul.catalog__tabs').on('click', 'li:not(.catalog__tab_active)', function() {
     $(this)
       .addClass('catalog__tab_active').siblings().removeClass('catalog__tab_active')
-      .closest('div.container').find('div.wrapper').removeClass('wrapper-active').eq($(this).index()).addClass('wrapper-active');
+      .closest('div.container').find('div.wrapper').removeClass('wrapper-active').eq($(this).index()).addClass('wrapper-active')
+      .closest('div.container').find('ul.pagination').removeClass('pagination-active').eq($(this).index()).addClass('pagination-active');
   });
 
 
