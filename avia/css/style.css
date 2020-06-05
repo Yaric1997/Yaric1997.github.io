@@ -1,0 +1,102 @@
+/* line 1, D:/Projects/lendings/glopt/sass/blocks/_header.scss */
+header {
+  padding: 23px 0 82px 0;
+  background: url("../../img/plane.jpg") center center/cover no-repeat;
+}
+
+/* line 4, D:/Projects/lendings/glopt/sass/blocks/_header.scss */
+header .logo {
+  width: 95px;
+  height: 99px;
+}
+
+/* line 8, D:/Projects/lendings/glopt/sass/blocks/_header.scss */
+header nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* line 12, D:/Projects/lendings/glopt/sass/blocks/_header.scss */
+header .nav_link {
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 15px;
+  text-align: left;
+  color: #ffffff;
+}
+
+/* line 18, D:/Projects/lendings/glopt/sass/blocks/_header.scss */
+header .nav_link_active {
+  color: #ec644b;
+}
+
+/* line 22, D:/Projects/lendings/glopt/sass/blocks/_header.scss */
+header .subtitle_small {
+  margin-top: 58px;
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 24px;
+  text-align: center;
+  color: #ffffff;
+}
+
+/* line 30, D:/Projects/lendings/glopt/sass/blocks/_header.scss */
+header h1 {
+  margin-top: 26px;
+  font-size: 72px;
+  font-weight: bold;
+  line-height: 72px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+/* line 38, D:/Projects/lendings/glopt/sass/blocks/_header.scss */
+header .subtitle {
+  margin-top: 9px;
+  font-size: 42px;
+  font-weight: 500;
+  line-height: 42px;
+  text-align: center;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+/* line 1, D:/Projects/lendings/glopt/sass/blocks/_buttons.scss */
+.btn {
+  width: 180px;
+  height: 45px;
+  background-color: #ec644b;
+  font-size: 12px;
+  text-transform: uppercase;
+  font-weight: 300;
+  text-align: center;
+  color: #ffffff;
+  border-radius: 10px;
+}
+
+/* line 11, D:/Projects/lendings/glopt/sass/blocks/_buttons.scss */
+.btn_small {
+  width: 160px;
+  height: 45px;
+  background-color: #ec644b;
+  font-size: 12px;
+  text-transform: uppercase;
+  font-weight: 300;
+  text-align: center;
+  color: #ffffff;
+  border-radius: 10px;
+}
+
+/* line 4, D:/Projects/lendings/glopt/sass/style.scss */
+* {
+  box-sizing: border-box;
+}
+
+/* line 7, D:/Projects/lendings/glopt/sass/style.scss */
+.container {
+  margin: 0 auto;
+  width: 880px;
+  padding: 0 10px;
+}
+
+/*# sourceMappingURL=style.css.map */

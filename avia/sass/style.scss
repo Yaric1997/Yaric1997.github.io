@@ -1,0 +1,11 @@
+@import "variables.scss";
+@import "blocks/header.scss";
+@import "blocks/buttons";
+*{
+  box-sizing: border-box;
+}
+.container{
+  margin: 0 auto;
+  width: 880px;
+  padding: 0 10px;
+}

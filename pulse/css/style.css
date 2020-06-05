@@ -340,6 +340,19 @@
   font-weight: 500;
 }
 
+/* line 9, D:/Projects/Yaric1997.github.io/pulse/sass/_consultation.sass */
+.consultation .error {
+  border: 1px solid red;
+}
+
+/* line 11, D:/Projects/Yaric1997.github.io/pulse/sass/_consultation.sass */
+.consultation label.error {
+  color: #fff;
+  border: none;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
 /* line 1, D:/Projects/Yaric1997.github.io/pulse/sass/_titles.sass */
 .title {
   color: #0d0d0d;
@@ -378,6 +391,11 @@
 }
 
 /* line 16, D:/Projects/Yaric1997.github.io/pulse/sass/_forms.sass */
+.feed-form input_mt25 {
+  margin-top: 25px;
+}
+
+/* line 18, D:/Projects/Yaric1997.github.io/pulse/sass/_forms.sass */
 .feed-form input:nth-child(3) {
   margin-bottom: 20px;
 }
@@ -740,12 +758,108 @@
   display: block;
 }
 
-/* line 15, D:/Projects/Yaric1997.github.io/pulse/sass/style.sass */
+/* line 26, D:/Projects/Yaric1997.github.io/pulse/sass/_footer.sass */
+.footer__phone:hover {
+  color: #fff;
+}
+
+/* line 28, D:/Projects/Yaric1997.github.io/pulse/sass/_footer.sass */
+.footer__social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* line 32, D:/Projects/Yaric1997.github.io/pulse/sass/_footer.sass */
+.footer__social-item {
+  margin: 0 10px;
+  border-radius: 100%;
+  border: 2px solid #fff;
+  padding: 10px;
+}
+
+/* line 37, D:/Projects/Yaric1997.github.io/pulse/sass/_footer.sass */
+.footer__social-item:nth-child(3) {
+  margin-right: 0;
+}
+
+/* line 1, D:/Projects/Yaric1997.github.io/pulse/sass/_modal.sass */
+.overlay {
+  display: none;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  background: rgba(0, 0, 0, 0.56);
+}
+
+/* line 9, D:/Projects/Yaric1997.github.io/pulse/sass/_modal.sass */
+.modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 380px;
+  min-height: 400px;
+  background: #f2f2f2;
+  padding: 38px 40px 40px 40px;
+}
+
+/* line 18, D:/Projects/Yaric1997.github.io/pulse/sass/_modal.sass */
+.modal__close {
+  position: absolute;
+  top: 0;
+  right: -40px;
+  font-size: 41px;
+  line-height: 21px;
+  color: #c70101;
+  cursor: pointer;
+}
+
+/* line 26, D:/Projects/Yaric1997.github.io/pulse/sass/_modal.sass */
+.modal__subtitle {
+  color: #0d0d0d;
+  font-size: 18px;
+  font-weight: 700;
+  text-align: center;
+}
+
+/* line 31, D:/Projects/Yaric1997.github.io/pulse/sass/_modal.sass */
+.modal__descr {
+  color: #0d0d0d;
+  font-size: 15px;
+  font-weight: 500;
+  text-align: center;
+}
+
+/* line 36, D:/Projects/Yaric1997.github.io/pulse/sass/_modal.sass */
+.modal_mini {
+  min-height: 140px;
+}
+
+/* line 38, D:/Projects/Yaric1997.github.io/pulse/sass/_modal.sass */
+.modal .error {
+  border: 1px solid red;
+}
+
+/* line 40, D:/Projects/Yaric1997.github.io/pulse/sass/_modal.sass */
+.modal label.error {
+  border: none;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+/* line 45, D:/Projects/Yaric1997.github.io/pulse/sass/_modal.sass */
+#consultation, #order, #thanks {
+  display: none;
+}
+
+/* line 16, D:/Projects/Yaric1997.github.io/pulse/sass/style.sass */
 * {
   font-family: 'Museo Sans Cyrl', sans-serif;
 }
 
-/* line 17, D:/Projects/Yaric1997.github.io/pulse/sass/style.sass */
+/* line 18, D:/Projects/Yaric1997.github.io/pulse/sass/style.sass */
 .container {
   position: relative;
   max-width: 950px;

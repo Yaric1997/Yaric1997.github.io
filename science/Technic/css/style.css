@@ -33,6 +33,7 @@ font-family: 'Ubuntu', sans-serif;
 color: #fff;
 }
 
+
 section {
 padding-top: 80px;
 padding-bottom: 40px;
@@ -342,6 +343,12 @@ color:#fff;
 text-decoration:none;
 }
 /*pagination*/
+.text-red{
+  color: red;
+}
+.text-fz23{
+  font-size: 23px;
+}
 
 .pagination{
   display: none;
