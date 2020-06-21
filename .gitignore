@@ -4,3 +4,4 @@ test/node_modules/.bin/
 test/node_modules/abbrev/
 
 test/node_modules
+glopt
