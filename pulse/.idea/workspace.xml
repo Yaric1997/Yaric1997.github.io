@@ -1,24 +1,105 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6942317b-283f-4da9-80c8-143def91a77a" name="Default Changelist" comment="" />
+    <list default="true" id="7f002e7d-a406-4994-8e4e-ebfbd9c4ceb0" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/bootstrap-reboot.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/clients.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/clients.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/slick.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/MuseoSansCyrl-100.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/MuseoSansCyrl-100.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/MuseoSansCyrl-100.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/MuseoSansCyrl-100Italic.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/MuseoSansCyrl-100Italic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/MuseoSansCyrl-100Italic.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/MuseoSansCyrl-300.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/MuseoSansCyrl-300.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/MuseoSansCyrl-300.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/MuseoSansCyrl-300Italic.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/MuseoSansCyrl-300Italic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/MuseoSansCyrl-300Italic.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/MuseoSansCyrl-500.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/MuseoSansCyrl-500.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/MuseoSansCyrl-500.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/MuseoSansCyrl-500Italic.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/MuseoSansCyrl-500Italic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/MuseoSansCyrl-500Italic.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/MuseoSansCyrl-700.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/MuseoSansCyrl-700.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/MuseoSansCyrl-700.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/MuseoSansCyrl-700Italic.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/MuseoSansCyrl-700Italic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/MuseoSansCyrl-700Italic.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/MuseoSansCyrl-900.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/MuseoSansCyrl-900.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/MuseoSansCyrl-900.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/MuseoSansCyrl-900Italic.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/MuseoSansCyrl-900Italic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/MuseoSansCyrl-900Italic.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/demo.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/stylesheet.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/ів" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/icons/arrows/left.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/icons/arrows/left.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/icons/arrows/right.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/icons/arrows/right.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/icons/client/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/icons/client/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/icons/client/3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/icons/cup.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/icons/handcard.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/icons/heart.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/icons/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/icons/messages.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/icons/shoe.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/icons/slider/polar1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/icons/slider/polar2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/icons/slider/polar3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/icons/social/facebook.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/icons/social/instagram.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/icons/social/pintarest.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/icons/tabs/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/icons/tabs/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/icons/tabs/3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/icons/tabs/4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/icons/tabs/5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/icons/tabs/6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/icons/timer.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/bg1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/bg2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/bg3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/jquery.maskedinput.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/jquery.validate.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/slick.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mailer/phpmailer/PHPMailerAutoload.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mailer/phpmailer/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mailer/phpmailer/class.phpmailer.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mailer/phpmailer/class.phpmaileroauth.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mailer/phpmailer/class.phpmaileroauthgoogle.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mailer/phpmailer/class.pop3.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mailer/phpmailer/class.smtp.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mailer/phpmailer/get_oauth_token.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mailer/phpmailer/travis.phpunit.xml.dist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mailer/smart.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../science/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../science/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Sass File" />
-        <option value="JavaScript File" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectId" id="1aIbHbMSZHcEv2OrQJjcv3sVMwS" />
+  <component name="ProjectId" id="1dZiDtVVgZmSB3G4rmV79BgCvs0" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -28,67 +109,20 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="C:/MAMP/htdocs/pulse" />
-    <property name="list.type.of.created.stylesheet" value="Sass" />
-    <property name="node.js.detected.package.eslint" value="true" />
-    <property name="node.js.detected.package.tslint" value="true" />
-    <property name="node.js.path.for.package.eslint" value="project" />
-    <property name="node.js.path.for.package.tslint" value="project" />
-    <property name="node.js.selected.package.eslint" value="(autodetect)" />
-    <property name="node.js.selected.package.tslint" value="(autodetect)" />
-  </component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Projects\Yaric1997.github.io\pulse\js" />
-      <recent name="D:\Projects\Yaric1997.github.io\pulse\css" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Projects\Yaric1997.github.io\pulse\fonts" />
-      <recent name="D:\Projects\Yaric1997.github.io\pulse\css" />
-    </key>
-  </component>
-  <component name="RunManager" selected="JavaScript Debug.index.html">
-    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/pulse/index.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
-    <configuration name="script.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/js/script.js" working-dir="$PROJECT_DIR$/js">
-      <method v="2" />
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="JavaScript Debug.index.html" />
-        <item itemvalue="Node.js.script.js" />
-      </list>
-    </recent_temporary>
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../lendings/glopt" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="6942317b-283f-4da9-80c8-143def91a77a" name="Default Changelist" comment="" />
-      <created>1586425968308</created>
+      <changelist id="7f002e7d-a406-4994-8e4e-ebfbd9c4ceb0" name="Default Changelist" comment="" />
+      <created>1592638899193</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1586425968308</updated>
-      <workItem from="1586425971326" duration="6319000" />
-      <workItem from="1586437196161" duration="23788000" />
-      <workItem from="1586767117606" duration="8368000" />
-      <workItem from="1586775770617" duration="255000" />
-      <workItem from="1587631123888" duration="10905000" />
-      <workItem from="1587648409140" duration="4716000" />
-      <workItem from="1587653952819" duration="1913000" />
-      <workItem from="1587655954885" duration="100000" />
-      <workItem from="1587734670288" duration="4578000" />
-      <workItem from="1587745954092" duration="8518000" />
-      <workItem from="1587826324298" duration="6646000" />
-      <workItem from="1588099669185" duration="627000" />
-      <workItem from="1589727254378" duration="5104000" />
-      <workItem from="1589884525666" duration="11283000" />
-      <workItem from="1589965341830" duration="2316000" />
-      <workItem from="1589972307683" duration="912000" />
-      <workItem from="1591121292912" duration="375000" />
-      <workItem from="1591294029467" duration="9000" />
+      <updated>1592638899193</updated>
+      <workItem from="1592638900386" duration="615000" />
+      <workItem from="1592764045250" duration="48000" />
     </task>
     <servers />
   </component>
@@ -96,84 +130,9 @@
     <option name="version" value="2" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="395" y="91" key="#Inspections" timestamp="1586772264162">
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1592764090457">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="395" y="91" key="#Inspections/0.0.1536.824@0.0.1536.824" timestamp="1586772264162" />
-    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1586425792780">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1586425792780" />
-    <state x="548" y="214" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1587656040356">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="548" y="214" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1587656040356" />
-    <state x="484" y="71" key="#script.js" timestamp="1586775906947">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="484" y="71" key="#script.js/0.0.1536.824@0.0.1536.824" timestamp="1586775906947" />
-    <state x="93" y="93" width="1350" height="638" key="DiffContextDialog" timestamp="1587745759962">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="93" y="93" width="1350" height="638" key="DiffContextDialog/0.0.1536.824@0.0.1536.824" timestamp="1587745759962" />
-    <state x="548" y="154" key="FileChooserDialogImpl" timestamp="1591121451454">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="548" y="154" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1591121451454" />
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1587642499688">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1587642499688" />
-    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1587642499688">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1587642499688" />
-    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1587642499687">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1587642499687" />
-    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1587642499688">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1587642499688" />
-    <state width="1493" height="210" key="GridCell.Tab.1.bottom" timestamp="1587642499688">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="210" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1587642499688" />
-    <state width="1493" height="210" key="GridCell.Tab.1.center" timestamp="1587642499688">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="210" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1587642499688" />
-    <state width="1493" height="210" key="GridCell.Tab.1.left" timestamp="1587642499688">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="210" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1587642499688" />
-    <state width="1493" height="210" key="GridCell.Tab.1.right" timestamp="1587642499688">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="210" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1587642499688" />
-    <state width="1493" height="261" key="GridCell.Tab.2.bottom" timestamp="1586776025237">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="261" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1586776025237" />
-    <state width="1493" height="261" key="GridCell.Tab.2.center" timestamp="1586776025237">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="261" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1586776025237" />
-    <state width="1493" height="261" key="GridCell.Tab.2.left" timestamp="1586776025237">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="261" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1586776025237" />
-    <state width="1493" height="261" key="GridCell.Tab.2.right" timestamp="1586776025237">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="261" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1586776025237" />
-    <state x="425" y="187" key="run.anything.popup" timestamp="1589885120304">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1589885120304" />
-  </component>
-  <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/pulse$index_html.dat" NAME="index.html Coverage Results" MODIFIED="1586775815694" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="WipCoverageRunner" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1592764090457" />
   </component>
 </project>
