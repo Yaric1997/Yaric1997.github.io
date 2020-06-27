@@ -17,5 +17,7 @@
     "gulp-rename": "^2.0.0",
     "gulp-sass": "^4.1.0"
   },
-  "dependencies": {}
+  "dependencies": {
+    "tiny-slider": "^2.9.2"
+  }
 }
